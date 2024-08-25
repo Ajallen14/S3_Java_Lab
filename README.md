@@ -31,3 +31,47 @@ Method overloading is a type of polymorphism where multiple methods with the sam
 
 ### *Method Overriding*
 Method overriding is a type of polymorphism where a subclass provides a specific implementation of a method that is already defined in its superclass. The method to be called is determined at runtime based on the actual class of the object.
+
+# [**Exeception Handeling**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Execption%20Handeling/excep_handel.java)
+Types of Exceptions :
+  - **Checked Exceptions**
+  - **Unchecked Exceptions**
+
+  ### Checked Exceptions
+  Checked exceptions are exceptions that are checked at compile-time. These exceptions must be handled by the programmer using a try-catch block. 
+  Examples of checked exceptions include:
+- IOException
+- SQLException
+- FileNotFoundException
+
+### Unchecked Exceptions
+Unchecked exceptions are exceptions that are not checked at compile-time. These exceptions are typically caused by programming errors and can be handled using a try-catch block. 
+Examples of unchecked exceptions include:
+- NullPointerException
+- ArrayIndexOutOfBoundsException
+- ArithmeticException
+
+# [**File Handeling**](https://github.com/Ajallen14/S3_Java_Lab/tree/main/File%20Handeling)
+Java has two primary classes for file handling:
+- **File**: This class represents a file or directory on the file system. It provides methods to create, delete, rename, and manipulate files and directories.
+- **RandomAccessFile**: This class allows you to read and write data to a file in a random access manner, meaning you can jump to any position in the file and read or write data.
+File Input/Output (I/O) Streams
+
+Java uses streams to read and write data to files. There are two types of streams:
+
+- **InputStream**: Used to read data from a file.
+- **OutputStream**: Used to write data to a file.
+
+Some common stream classes for file I/O are:
+
+- **FileInputStream**: Reads data from a file.
+- **FileOutputStream**: Writes data to a file.
+- **BufferedReader**: Reads text data from a file, buffering the input for efficiency.
+- **BufferedWriter**: Writes text data to a file, buffering the output for efficiency.
+
+### Common File Handling Scenarios
+- Reading and writing text files: Use *BufferedReader* and *BufferedWriter* to read and write text data to files.
+- Reading and writing binary files: Use *FileInputStream* and *FileOutputStream* to read and write binary data to
+files.
+- Copying files: Use *FileInputStream* and *FileOutputStream* to copy files.
+- Reading and writing CSV files: Use *BufferedReader* and *BufferedWriter* to read and write CSV data to files.
