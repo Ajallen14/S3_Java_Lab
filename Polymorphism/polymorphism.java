@@ -20,7 +20,7 @@ class Hexagon extends Shape{
 	}
 }
 
-class main{
+class Sides{
 	public static void main(String args[]){
 		Rectangle r = new Rectangle();
 		r.numberOfSides();
