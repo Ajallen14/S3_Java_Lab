@@ -75,3 +75,5 @@ Some common stream classes for file I/O are:
 files.
 - Copying files: Use *FileInputStream* and *FileOutputStream* to copy files.
 - Reading and writing CSV files: Use *BufferedReader* and *BufferedWriter* to read and write CSV data to files.
+
+# [FREQUENCY OF THE CHARACTER](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Frequency%20of%20a%20character/frequency.java)
