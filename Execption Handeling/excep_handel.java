@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Test{
+class exp{
     public static void main(String args[]) throws ArithmeticException{
         Scanner sc = new Scanner(System.in);
         try{

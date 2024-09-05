@@ -24,4 +24,5 @@ public class frequency {
         }
         return count;
     }
+    sc.close();
 }
