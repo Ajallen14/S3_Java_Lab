@@ -82,5 +82,6 @@ files.
 
 # [**Frequency of Character**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Frequency%20of%20a%20character/frequency.java)
 
+# [**Palindrome**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Palindrome/palindrome.java)
 
 # [**Matrix**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Matrix/matrix.java)
