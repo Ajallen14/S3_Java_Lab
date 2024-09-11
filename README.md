@@ -112,6 +112,12 @@ To ensure thread safety, Java provides various **synchronization mechanisms**, i
 
 
 # [**String Tokenzier**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/String%20Tokenizer/str_tonken.java)
+* A String Tokenizer in Java is a utility that breaks a string into smaller units called tokens. These tokens can be words, keywords, identifiers, or any other meaningful elements of the string
+
+* You can use the **StringTokenizer class** to tokenize a string.
+
+* you can use the **split() method** of the String class to tokenize a string.
+
 
 # [**Frequency of Character**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Frequency%20of%20a%20character/frequency.java)
 
