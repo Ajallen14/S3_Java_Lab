@@ -118,6 +118,7 @@ To ensure thread safety, Java provides various **synchronization mechanisms**, i
 
 * you can use the **split() method** of the String class to tokenize a string.
 
+# [**Simple Calculator**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Simple%20Calculator/cal.java)
 
 # [**Frequency of Character**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Frequency%20of%20a%20character/frequency.java)
 
