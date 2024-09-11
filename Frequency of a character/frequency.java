@@ -13,6 +13,7 @@ public class frequency {
         int frequency = countFrequency(str, ch);
 
         System.out.println("The frequency of '" + ch + "' in the string is: " + frequency);
+        sc.close();
     }
 
     public static int countFrequency(String str, char ch) {
@@ -24,5 +25,4 @@ public class frequency {
         }
         return count;
     }
-    sc.close();
 }
