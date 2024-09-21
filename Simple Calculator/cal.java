@@ -27,5 +27,12 @@ class Calculator extends JFrame implements ActionListener{
 
     public Calculator(){
         setLayout(null);
+        setSize(680, 480);
+        t1 = new JTextField();
+        t1. setBounds(100, 100, 200, 30);
+        b1 = new JButton("1");
+        b1.setBounds(100, 140, 50, 30);
+        b1 = new JButton("2");
+        b1.setBounds(150, 140, 50, 30);
     }
 }
