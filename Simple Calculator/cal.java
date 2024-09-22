@@ -88,6 +88,23 @@ class Calculator extends JFrame implements ActionListener{
         add(b16);
         add(b17);
 
-        
+        b1.addActionListener(this);
+        b2.addActionListener(this);
+        b3.addActionListener(this);
+        b4.addActionListener(this);
+        b5.addActionListener(this);
+        b6.addActionListener(this);
+        b7.addActionListener(this);
+        b8.addActionListener(this);
+        b9.addActionListener(this);
+        b10.addActionListener(this);
+        b11.addActionListener(this);
+        b12.addActionListener(this);
+        b13.addActionListener(this);
+        b14.addActionListener(this);    
+        b15.addActionListener(this);        
+        b17.addActionListener(this);        
     }
+
+    
 }
