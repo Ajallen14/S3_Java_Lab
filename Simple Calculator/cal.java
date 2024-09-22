@@ -57,5 +57,8 @@ class Calculator extends JFrame implements ActionListener{
         b11.setBounds(200, 200, 50, 30);
         b12 = new JButton("x");
         b12.setBounds(250, 200, 50, 30);
+
+        b13 = new JButton("/");
+        b13.setBounds(100, 230, 50, 30);
     }
 }
