@@ -132,7 +132,15 @@ class Calculator extends JFrame implements ActionListener{
                 }
                 break;
 
-                case "x" : 
+                case "x" : res = res * Integer.parseInt(t1.getText());
+                break;
+
+                case "%" : res = res % Integer.parseInt(t1.getText());
+                break;
+            }
+
+            if(op.equals("=")){
+                
             }
         }
     }
