@@ -16,5 +16,44 @@ class TrafficLight extends JPanel implements ActionListener{
         r1 = new JRadioButton("Red");
         r2 = new JRadioButton("Green");
         r3 = new JRadioButton("Orange");
+
+        ButtonGroup group = new ButtonGroup();
+        r1. setSelected(true);
+        group.add(r1);
+        group.add(r2);
+        group.add(r3);
+
+        add(r1);
+        add(r2);
+        add(r3);
+
+        red_c = Color.red;
+        green_c = getBackground();
+        orange_c = getBackground();
+
+        r1.addActionListener(this);
+        r2.addActionListener(this);
+        r3.addActionListener(this);
+    }
+
+    public void actionPerformed(ActionEvent e){
+        if(r1.isSelected() == true){
+            red_c = Color.red;
+            green_c = getBackground();
+            orange_c = getBackground();
+        }else if(r2.isSelected() == true){
+            red_c = getBackground();
+            green_c = Color.green;
+            orange_c = getBackground();
+        }else if(r3.isSelected() == true){
+            red_c = getBackground();
+            green_c = getBackground();
+            orange_c = Color.orange;
+        }
+        repaint();
+    }
+
+    public void paintComponent(Graphics g){
+        
     }
 }
