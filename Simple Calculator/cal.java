@@ -140,8 +140,57 @@ class Calculator extends JFrame implements ActionListener{
             }
 
             if(op.equals("=")){
-                
+                t1.setText(res.toString());
+                res = 0;
+                operation = null;
+            }else{
+                operation = op;
+                t1.setText("");
             }
         }
+    }
+
+    public void actionPerformed(ActionEvent e){
+        if(e.getSource() == b1){
+            t1.setText(t1.getText()+ "1");
+        }else if (e.getSource() == b2) {
+            t1.setText(t1.getText()+ "2"); 
+        }else if (e.getSource() == b3) {
+            t1.setText(t1.getText()+ "3"); 
+        }else if (e.getSource() == b5) {
+            t1.setText(t1.getText()+ "4"); 
+        }else if (e.getSource() == b6) {
+            t1.setText(t1.getText()+ "5"); 
+        }else if (e.getSource() == b7) {
+            t1.setText(t1.getText()+ "6"); 
+        }else if (e.getSource() == b9) {
+            t1.setText(t1.getText()+ "7"); 
+        }else if (e.getSource() == b10) {
+            t1.setText(t1.getText()+ "8"); 
+        }else if (e.getSource() == b11) {
+            t1.setText(t1.getText()+ "9"); 
+        }else if (e.getSource() == b17) {
+            t1.setText(t1.getText()+ "0"); 
+        }else if (e.getSource() == b16) {
+            t1.setText("");
+            res = 0;
+            operation = null;
+        }else if (e.getSource() == b4) {
+            doAction("+"); 
+        }else if (e.getSource() == b8) {
+            doAction("-");
+        }else if (e.getSource() == b12) {
+            doAction("x");
+        }else if (e.getSource() == b13) {
+             doAction("/");
+        }else if (e.getSource() == b14) {
+            doAction("%");
+        }else if (e.getSource() == b15) {
+            doAction("="); 
+        }
+    }
+
+    public static void main(String[] args) {
+        new Calculator().setVisible(true);
     }
 }
