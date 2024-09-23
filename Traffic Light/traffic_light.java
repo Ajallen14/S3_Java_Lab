@@ -54,6 +54,28 @@ class TrafficLight extends JPanel implements ActionListener{
     }
 
     public void paintComponent(Graphics g){
-        
+        super.paintComponent(g);
+
+        g.drawOval(50, 50, 50, 50);
+        g.drawOval(50, 110, 50, 50);
+        g.drawOval(50, 170, 50, 50);
+        g.setColor(red_c);
+        g.fillOval(50,  50, 50, 50);
+        g.setColor(orange_c);
+        g.fillOval(50,  110, 50, 50);
+        g.setColor(green_c);
+        g.fillOval(50,  170, 50, 50);
+    }
+}
+
+class Test{
+    public static void main(String[] args) {
+        JFrame f1 = new JFrame();
+
+        f1.setVisible(true);
+        f1.setSize(600, 480);
+        f1.setLayout(null);
+        TrafficLight t = new TrafficLight();
+        f1.add(t);
     }
 }
