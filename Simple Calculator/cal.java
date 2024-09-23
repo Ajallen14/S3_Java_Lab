@@ -106,5 +106,34 @@ class Calculator extends JFrame implements ActionListener{
         b17.addActionListener(this);        
     }
 
-    
+    public void doAction(String op){
+        if(operation == null){
+            operation = op;
+            res = Integer.parseInt(t1.getText());
+            t1.setText("");
+        }else{
+            switch(operation){
+
+                case"+": res = res + Integer.parseInt(t1.getText());
+                break;
+
+                case "-": res = res + Integer.parseInt(t1.getText());
+                break;
+                
+                case "/" : try {
+                    if(t1.getText().equals("0")){
+                        throw new ArithmeticException("Division by Zero not possible");
+                    }
+                    res = res / Integer.parseInt(t1.getText());
+                } catch (Exception e) {
+                    t1.setText(e.getMessage());
+                    operation = null;
+                    res = 0;
+                }
+                break;
+
+                case "x" : 
+            }
+        }
+    }
 }
