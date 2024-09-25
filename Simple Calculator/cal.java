@@ -33,8 +33,8 @@ class Calculator extends JFrame implements ActionListener{
 
         b1 = new JButton("1");
         b1.setBounds(100, 140, 50, 30);
-        b1 = new JButton("2");
-        b1.setBounds(150, 140, 50, 30);
+        b2 = new JButton("2");
+        b2.setBounds(150, 140, 50, 30);
         b3 = new JButton("3");
         b3.setBounds(200, 140, 50, 30);
         b4 = new JButton("+");
