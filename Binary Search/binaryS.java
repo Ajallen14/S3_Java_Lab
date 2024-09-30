@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 class Binary {
     int binarySearch(int array[], int element, int low, int high) {
@@ -30,6 +31,8 @@ class Binary {
             System.out.print("Enter the "+ (i+1) +" element :");
                 a[i] = sc.nextInt();
         }
+
+        Arrays.sort(a);
 
         System.out.print("Enter the element to be searched :");
         int s = sc.nextInt();
