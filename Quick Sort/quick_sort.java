@@ -8,6 +8,15 @@ public class QuickSort{
         this.names[j] = temp;
     }
 
+    void sort(String array[]){
+        if(array == null || array.length == 0){
+            return;
+        }
+        this.name = array;
+        this.length = array.length;
+        quickSort(0, length - 1);
+    }
+
     void quickSort(int lowerIndex, int higherIndex){
         int i = lowerIndex;
         int j = higherIndex;
@@ -36,15 +45,6 @@ public class QuickSort{
         if(i < higherIndex){
             quickSort(i, higherIndex);
         }
-    }
-
-    void sort(String array[]){
-        if(array == null || array.length == 0){
-            return;
-        }
-        this.name = array;
-        this.length = array.length;
-        quickSort(0, length - 1);
     }
     
     public static void main(String[] args) {
