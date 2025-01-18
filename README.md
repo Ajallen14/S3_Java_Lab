@@ -65,8 +65,12 @@ files.
 
 
 # [**Frequency of Character**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Frequency%20of%20a%20character/frequency.java)
-
-
+**Logic**
+* An integer variable count is initialized to zero to keep track of the occurrences of the character.
+* A for loop iterates through each character of the string:
+    * str.charAt(i) retrieves the character at index i.
+    * If this character matches ch, the count is incremented
+* After the loop completes, the method returns the total count of occurrences of the character.
 
 # [**Garbage Collection**](https://github.com/Ajallen14/S3_Java_Lab/tree/main/Garbage%20Collection)
 Garbage collection is a mechanism that automatically manages memory allocation and deallocation for Java objects. It's a form of automatic memory management that helps to prevent memory leaks and reduce the risk of null pointer exceptions.
