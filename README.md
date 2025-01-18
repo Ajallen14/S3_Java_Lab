@@ -1,8 +1,23 @@
 # [**BINARY SEARCH**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Binary%20Search/binaryS.java)
+Binary search operates on a sorted array by repeatedly dividing the search interval in half. If the value of the search key is less than the item in the middle of the interval, the search continues in the lower half. Otherwise, it continues in the upper half. This process continues until the value is found or the interval is empty
 
+**Logic**
+* The method uses a while loop that continues as long as low is less than or equal to high.
+* It calculates the middle index mid and checks if the middle element is equal to the search element.
+* If the middle element is less than the search element, it adjusts low to mid + 1 to search the right half.
+* If the middle element is greater, it adjusts high to mid - 1 to search the left half.
+* If the element is found, it returns the index; if not found, it returns 0.
 
 # [**DOUBLY LINKED LIST**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Doubly%20Linked%20List/Doubly_linked_list.java)
+A Doubly Linked List is a type of linked data structure that consists of a sequence of nodes, where each node contains three components: a data field, a pointer to the next node in the sequence, and a pointer to the previous node. This allows traversal of the list in both directions (forward and backward).
 
+head: a reference to the first node in the list.
+tail: a reference to the last node in the list
+
+Each Node object contains:
+* data: an integer value stored in the node.
+* next: a reference to the next node in the list.
+* prev: a reference to the previous node in the list.
 
 # [**Exeception Handeling**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Execption%20Handeling/excep_handel.java)
 Types of Exceptions :
