@@ -8,7 +8,7 @@ Binary search operates on a sorted array by repeatedly dividing the search inter
 * If the middle element is greater, it adjusts high to mid - 1 to search the left half.
 * If the element is found, it returns the index; if not found, it returns 0.
 
-# [**DOUBLY LINKED LIST**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Doubly%20Linked%20List/Doubly_linked_list.java)
+# [**Doubly Linked List**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Doubly%20Linked%20List/Doubly_linked_list.java)
 A Doubly Linked List is a type of linked data structure that consists of a sequence of nodes, where each node contains three components: a data field, a pointer to the next node in the sequence, and a pointer to the previous node. This allows traversal of the list in both directions (forward and backward).
 
 head: a reference to the first node in the list.
@@ -166,7 +166,7 @@ Method overriding is a type of polymorphism where a subclass provides a specific
 
 * you can use the **split() method** of the String class to tokenize a string.
 
-# [**THREAD SYNCHRONISATION**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Thread%20Synchronization/Thread_sync.java)
+# [**Thread Syncrhronization**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Thread%20Synchronization/Thread_sync.java)
 
 
 # [**TRAFFIC LIGHT**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Traffic%20Light/traffic_light.java)
