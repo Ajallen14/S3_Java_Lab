@@ -1,7 +1,7 @@
-# [**BINARY SEARCH**]()
+# [**BINARY SEARCH**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Binary%20Search/binaryS.java)
 
 
-# [**DOUBLY LINKED LIST**]()
+# [**DOUBLY LINKED LIST**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Doubly%20Linked%20List/Doubly_linked_list.java)
 
 
 # [**Exeception Handeling**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Execption%20Handeling/excep_handel.java)
@@ -66,7 +66,7 @@ Garbage collection is a mechanism that automatically manages memory allocation a
     * Memory Reclamation: The reclaimed memory is made available for future object allocations
 
 
-# [**INHERITANCE**]()
+# [**INHERITANCE**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Inheritance/Inheritance.java)
 
 
 
@@ -134,7 +134,7 @@ Method overloading is a type of polymorphism where multiple methods with the sam
 Method overriding is a type of polymorphism where a subclass provides a specific implementation of a method that is already defined in its superclass. The method to be called is determined at runtime based on the actual class of the object.
 
 
-# [**QUICK SORT**]()
+# [**QUICK SORT**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Quick%20Sort/quick_sort.java)
 
 
 # [**Simple Calculator**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Simple%20Calculator/cal.java)
@@ -147,8 +147,8 @@ Method overriding is a type of polymorphism where a subclass provides a specific
 
 * you can use the **split() method** of the String class to tokenize a string.
 
-# [**THREAD SYNCHRONISATION**]()
+# [**THREAD SYNCHRONISATION**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Thread%20Synchronization/Thread_sync.java)
 
 
-# [**TRAFFIC LIGHT**]()
+# [**TRAFFIC LIGHT**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Traffic%20Light/traffic_light.java)
 
