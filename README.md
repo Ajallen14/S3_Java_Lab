@@ -1,4 +1,4 @@
-# [**BINARY SEARCH**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Binary%20Search/binaryS.java)
+# [**Binary Search**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Binary%20Search/binaryS.java)
 Binary search operates on a sorted array by repeatedly dividing the search interval in half. If the value of the search key is less than the item in the middle of the interval, the search continues in the lower half. Otherwise, it continues in the upper half. This process continues until the value is found or the interval is empty
 
 **Logic**
@@ -85,7 +85,7 @@ Garbage collection is a mechanism that automatically manages memory allocation a
     * Memory Reclamation: The reclaimed memory is made available for future object allocations
 
 
-# [**INHERITANCE**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Inheritance/Inheritance.java)
+# [**Inheritancw**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Inheritance/Inheritance.java)
 
 
 
