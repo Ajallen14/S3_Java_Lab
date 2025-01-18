@@ -153,7 +153,7 @@ Method overloading is a type of polymorphism where multiple methods with the sam
 Method overriding is a type of polymorphism where a subclass provides a specific implementation of a method that is already defined in its superclass. The method to be called is determined at runtime based on the actual class of the object.
 
 
-# [**QUICK SORT**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Quick%20Sort/quick_sort.java)
+# [**Quick Sort**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Quick%20Sort/quick_sort.java)
 
 
 # [**Simple Calculator**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Simple%20Calculator/cal.java)
@@ -169,5 +169,5 @@ Method overriding is a type of polymorphism where a subclass provides a specific
 # [**Thread Syncrhronization**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Thread%20Synchronization/Thread_sync.java)
 
 
-# [**TRAFFIC LIGHT**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Traffic%20Light/traffic_light.java)
+# [**Traffic Light**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Traffic%20Light/traffic_light.java)
 
