@@ -8,6 +8,8 @@ Binary search operates on a sorted array by repeatedly dividing the search inter
 * If the middle element is greater, it adjusts high to mid - 1 to search the left half.
 * If the element is found, it returns the index; if not found, it returns 0.
 
+
+
 # [**Doubly Linked List**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Doubly%20Linked%20List/Doubly_linked_list.java)
 A Doubly Linked List is a type of linked data structure that consists of a sequence of nodes, where each node contains three components: a data field, a pointer to the next node in the sequence, and a pointer to the previous node. This allows traversal of the list in both directions (forward and backward).
 
@@ -18,6 +20,8 @@ Each Node object contains:
 * data: an integer value stored in the node.
 * next: a reference to the next node in the list.
 * prev: a reference to the previous node in the list.
+
+
 
 # [**Exeception Handeling**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Execption%20Handeling/excep_handel.java)
 Types of Exceptions :
@@ -37,6 +41,8 @@ Examples of unchecked exceptions include:
 - NullPointerException
 - ArrayIndexOutOfBoundsException
 - ArithmeticException
+
+
 
 # [**File Handeling**](https://github.com/Ajallen14/S3_Java_Lab/tree/main/File%20Handeling)
 Java has two primary classes for file handling:
@@ -72,6 +78,8 @@ files.
     * If this character matches ch, the count is incremented
 * After the loop completes, the method returns the total count of occurrences of the character.
 
+
+
 # [**Garbage Collection**](https://github.com/Ajallen14/S3_Java_Lab/tree/main/Garbage%20Collection)
 Garbage collection is a mechanism that automatically manages memory allocation and deallocation for Java objects. It's a form of automatic memory management that helps to prevent memory leaks and reduce the risk of null pointer exceptions.
 
@@ -85,8 +93,19 @@ Garbage collection is a mechanism that automatically manages memory allocation a
     * Memory Reclamation: The reclaimed memory is made available for future object allocations
 
 
-# [**Inheritancw**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Inheritance/Inheritance.java)
 
+
+# [**Inheritance**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Inheritance/Inheritance.java)
+Inheritance is a fundamental concept in object-oriented programming (OOP) that allows one class (the child or subclass) to inherit the properties and behaviors (methods) of another class (the parent or superclass). In Java, inheritance promotes code reusability and establishes a hierarchical relationship between classes
+
+**Key Points**
+* Single Inheritance: Java supports single inheritance, meaning a class can inherit from only one superclass.
+
+* extends Keyword: The extends keyword is used to declare inheritance. A subclass inherits all the non-private fields and methods from its superclass.
+
+* Method Overriding: A subclass can provide a specific implementation of a method that is already defined in its superclass.
+
+* Constructor: The constructor of the superclass is called when an object of the subclass is created, which can be done explicitly using super().
 
 
 # [**Matrix**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Matrix/matrix.java)
@@ -136,7 +155,15 @@ To ensure thread safety, Java provides various **synchronization mechanisms**, i
 
 
 # [**Palindrome**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Palindrome/palindrome.java)
+A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward.
 
+
+1. This method takes a string str as input and initializes two indices: i (starting from the beginning of the string) and j (starting from the end of the string).
+2. A while loop runs as long as i is less than j. Inside the loop:
+3. It compares the characters at positions i and j.
+4. If the characters are not the same, it returns false, indicating that the string is not a palindrome.
+5. If they are the same, it increments i and decrements j to check the next pair of characters.
+6. If the loop completes without finding any mismatches, it returns true, indicating that the string is a palindrome.
 
 
 # [**Polymorphism**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Polymorphism/polymorphism.java)
@@ -154,9 +181,32 @@ Method overriding is a type of polymorphism where a subclass provides a specific
 
 
 # [**Quick Sort**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Quick%20Sort/quick_sort.java)
+Quick Sort is a highly efficient sorting algorithm that follows the divide-and-conquer paradigm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays according to whether they are less than or greater than the pivot. The steps are as follows:
+
+1. Choose a Pivot: Select an element from the array as the pivot. The choice of pivot can vary; common strategies include picking the first element, the last element, the middle element, or a random element.
+
+2. Partitioning: Rearrange the array so that all elements less than the pivot come before it and all elements greater than the pivot come after it. After partitioning, the pivot is in its final position.
+
+3. Recursively Apply: Recursively apply the above steps to the sub-arrays of elements with smaller and larger values.
+
 
 
 # [**Simple Calculator**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Simple%20Calculator/cal.java)
+wo main packages are used:
+
+1. javax.swing:
+  Description: This package is part of the Java Foundation Classes (JFC) and provides a set of lightweight components for building graphical user interfaces (GUIs) in Java applications. Unlike AWT (Abstract Window Toolkit), which uses native system components, Swing components are written entirely in Java and are platform-independent.
+  Key Components Used:
+    * JFrame: A top-level container that represents a window where components can be added. It serves as the main     window for the application.
+    * JTextField: A component that allows the user to enter and edit a single line of text. In this calculator, it is used to display input and results.
+    * JButton: A button component that can trigger an action when clicked. Each button in the calculator corresponds to a digit or an operation.
+
+2. java.awt.event:
+  Description: This package contains classes and interfaces for handling events in AWT and Swing applications. It provides the necessary tools to respond to user interactions, such as mouse clicks, key presses, and other actions.
+  Key Components Used:
+    * ActionListener: An interface that must be implemented by any class that wants to handle action events (like button clicks). The actionPerformed method is called when an action event occurs.
+    * ActionEvent: A class that encapsulates information about an action event, such as which component triggered the event. It is passed as an argument to the actionPerformed method.
+
 
 
 # [**String Tokenzier**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/String%20Tokenizer/str_tonken.java)
@@ -166,8 +216,28 @@ Method overriding is a type of polymorphism where a subclass provides a specific
 
 * you can use the **split() method** of the String class to tokenize a string.
 
-# [**Thread Syncrhronization**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Thread%20Synchronization/Thread_sync.java)
 
+# [**Thread Syncrhronization**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Thread%20Synchronization/Thread_sync.java)
+Thread synchronization is a mechanism that ensures that two or more concurrent threads do not simultaneously execute some particular program segment, which can lead to inconsistent or incorrect results. In Java, synchronization is primarily used to control access to shared resources by multiple threads. This is crucial in multi-threaded applications where threads may share data or resources, and without proper synchronization, it can lead to race conditions, data corruption, or unexpected behavior.
+
+**Execution Flow**
+
+When the main method is executed:
+  1. Both threads t1 and t2 are started almost simultaneously.
+  2. Since both threads are trying to call the print method on the same Display instance, the synchronization mechanism comes into play:
+  3. If t1 starts executing print("Hello"), it will acquire the lock on the Display object.
+  4. While t1 is sleeping for 1 second, t2 will be blocked from entering the print method because it cannot acquire the lock.
+  5. After t1 finishes executing the print method, it releases the lock, allowing t2 to proceed and execute print("world")
 
 # [**Traffic Light**](https://github.com/Ajallen14/S3_Java_Lab/blob/main/Traffic%20Light/traffic_light.java)
+**Packages**
+1. javax.swing.*: This package contains classes for creating a GUI in Java. It includes components like JFrame, JPanel, JRadioButton, and others that are used to build the user interface.
+2. java.awt.*: This package provides classes for components that are dependent on the native system. It includes classes for graphics, colors, and layout management.
+3. java.awt.event.*: This package contains classes for event handling in AWT and Swing. It includes interfaces like ActionListener and classes like ActionEvent that are used to handle user actions (like button clicks).
 
+**Key Components**
+* JFrame: A top-level container that represents the main window of the application.
+* JPanel: A generic container that can hold components and is used for custom painting.
+* JRadioButton: A button that allows the user to select one option from a group. In this case, it is used to select the traffic light color.
+* ButtonGroup: A class that groups radio buttons so that only one button can be selected at a time.
+* Graphics: A class that provides methods for drawing shapes, text, and images on components
